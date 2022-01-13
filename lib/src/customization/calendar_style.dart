@@ -49,6 +49,7 @@ class CalendarStyle {
   /// Margin of each individual day cell.
   final EdgeInsets cellMargin;
   final EdgeInsets selectedCellMargin;
+  final double? cellSize;
 
   /// Padding of each individual day cell.
   final EdgeInsets cellPadding;
@@ -153,6 +154,7 @@ class CalendarStyle {
     this.outsideDaysVisible = true,
     this.markersAutoAligned = true,
     this.markerSize,
+    this.cellSize,
     this.markerSizeScale = 0.2,
     this.markersAnchor = 0.7,
     this.rangeHighlightScale = 1.0,
